@@ -19,7 +19,7 @@ export default function Navbar() {
           </li>
        </ul>
 
-        <Link to="/Cart" className="ml-auto"> 
+        <Link to="/Cart"  style={{marginLeft:'auto'}}> 
           <ButtonContainer> 
              <span className="mr-2">
                  <i className="fas fa-cart-plus"/> 
